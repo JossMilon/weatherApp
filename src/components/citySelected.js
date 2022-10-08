@@ -46,7 +46,7 @@ export function CitySelect() {
         onClick={setDisplaySearch}
         className="bg-blue-500 hover:bg-blue-700 m-1 p-4 rounded-md text-gray-100 uppercase cursor-pointer"
       >
-        Add new cities
+        Ajouter une ville
       </div>
     </div>
   );

@@ -28,7 +28,7 @@ export function CitySearch() {
       <div className="bg-gray-400 m-1 rounded-md flex">
         <input
           type="text"
-          placeholder="Enter a city"
+          placeholder="Choisissez une ville"
           onChange={(event) => {
             setCitySearch(event);
           }}
