@@ -28,7 +28,7 @@ export const useStore = create((set, get) => {
           )
           .then((response) => {
             set((state) => {
-              return { cityResults: response.data.results };
+              return { cityResults: response.data.results || [] };
             });
           });
       } catch (error) {
